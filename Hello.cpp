@@ -2,7 +2,7 @@
 using namespace std;
 
 int Calc(int a, int b, int c) {
-    return a + b + c;
+    return a * b * c;
 }
 
 int main() {
@@ -15,8 +15,8 @@ int main() {
     cout << "Enter the 3rd Number: ";
     cin >> num3;
     
-    sum = Calc(num1, num2, num3);
-    cout << "The Sum is: " << sum << endl;
+    prod = Calc(num1, num2, num3);
+    cout << "The product is: " << prod << endl;
     
     return 0;
 }
