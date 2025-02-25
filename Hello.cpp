@@ -14,9 +14,7 @@ int main() {
     cin >> num2;
     cout << "Enter the 3rd Number: ";
     cin >> num3;
-    
-    prod = Calc(num1, num2, num3);
-    cout << "The product is: " << prod << endl;
+    cout << "The product is: " << Calc(num1, num2, num3) << endl;
     
     return 0;
 }
